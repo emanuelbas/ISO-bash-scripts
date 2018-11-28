@@ -8,5 +8,5 @@ Es decir puede haber 512 marcos
 
 iv) El tamano maximo de la tabla de un proceso sera de la cantidad de paginas virtuales de la tabla 4Gb (tamano total) / 512 Kb (tamano de cada pagina) = 8192 Kb (cantidad de direcciones posibles)
 multiplicado por el tamano de cada entrada de la tabla 2Kb
- 8192 Kb / 2 Kb = 4096 Kb
-Es decir que la tabla de cada proceso podría tener un tamano de hasta 4Mb
+ 8192 Kb * 2 Kb = 16384 Kb
+Es decir que la tabla de cada proceso podría tener un tamano de hasta 16 Mb
