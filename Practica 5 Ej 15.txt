@@ -1,0 +1,12 @@
+i) hay 2^32 direcciones, cada una referencia 1 Byte. Entonces el tamano de la memoria virtual es de 2^32 Bytes, es decir 4Gb
+
+ii) La cantidad de paginas que puede tener un proceso se calcula 4Gb (tamano total) / 512 Kb (tamano de cada pagina) 
+Es decir 8192Kb
+
+iii) El numero de marcos que puede llegar a haber se calcula partiendo 256 Mb (memoria fisica) / 512 Kb (tamano de cada pagina)
+Es decir puede haber 512 marcos
+
+iv) El tamano maximo de la tabla de un proceso sera de la cantidad de paginas virtuales de la tabla 4Gb (tamano total) / 512 Kb (tamano de cada pagina) = 8192 Kb (cantidad de direcciones posibles)
+multiplicado por el tamano de cada entrada de la tabla 2Kb
+ 8192 Kb / 2 Kb = 4096 Kb
+Es decir que la tabla de cada proceso podría tener un tamano de hasta 4Mb
