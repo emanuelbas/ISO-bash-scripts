@@ -1,4 +1,4 @@
-i) hay 2^32 direcciones, cada una referencia 1 Byte. Entonces el tamano de la memoria virtual es de 2^32 Bytes, es decir 4Gb
+i) hay 2^32 direcciones, cada una referencia 1 Byte. Entonces el tamano de la memoria virtual es de 2^32 Bytes, es decir el tamano maximo de un proceso es de 4Gb
 
 ii) La cantidad de paginas que puede tener un proceso se calcula 4Gb (tamano total) / 512 Kb (tamano de cada pagina) 
 Es decir 8192Kb
